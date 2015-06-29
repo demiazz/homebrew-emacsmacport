@@ -63,6 +63,7 @@ class EmacsMac < Formula
       "--enable-locallisppath=#{HOMEBREW_PREFIX}/share/emacs/site-lisp",
       "--infodir=#{info}/emacs",
       "--with-mac",
+      "--with-x",
       "--enable-mac-app=#{prefix}",
     ]
 
